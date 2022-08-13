@@ -11,6 +11,7 @@ metadata:
     flux.weave.works/locked_msg: '"Halt updates for now"'
     flux.weave.works/locked_user: User Name <user@example.com>
 spec:
+  replicas: 2
   releaseName: mywebserver
   chart:
     repository: https://charts.bitnami.com/bitnami/
